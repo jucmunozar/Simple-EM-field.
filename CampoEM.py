@@ -18,7 +18,6 @@ X2, Y2, Z2, U2, V2, W2 = zip(*v2)
 X3, Y3, Z3, U3, V3, W3 = zip(*v3)
 theta = np.linspace(- 4.0 * np.pi, 4.0 * np.pi, num = 1000)
 z = np.linspace(0, 4, num = 1000)
-#r = z**2 + 1
 x =  np.sin(theta)
 y =  np.cos(theta)
 ax.plot(x, y, z, label='Movimiento de partícula cargada bajo efecto de campo EM', color = 'g')
